@@ -15,6 +15,7 @@ export async function createPost(data: FormData) {
             title,
             content,
             slug,
+            authorId: 1,
         },
     });
 
